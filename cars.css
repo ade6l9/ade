@@ -1,0 +1,145 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: Cinzel, serif;
+  display: inline-block;
+  padding-right: 30px;
+  padding-left: 30px;
+  height: auto;
+}
+
+.price {
+  color: RED;
+  font-size: 22px;
+  font-family: Cinzel, serif;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+/* Card for Electric Car*/
+.cardE {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 100%;
+  margin: auto;
+  text-align: center;
+  font-family: Cinzel, serif;
+  padding-right: 30px;
+  padding-left: 30px;
+  height:inherit;
+}
+
+.cardE button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+p {
+  font-family: 'Abhaya Libre';
+  font-size: 22px;
+  display: inline-block;
+}
+
+span {
+  display: inline-block;
+}
+
+.container {
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align:center;
+}
+
+a {
+  font-family: 'Abhaya Libre';
+  font-size: 22px;
+}
+
+#nav {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+}
+
+nav ul {
+  float: left;
+  margin-right: 30px;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  transition: 0.7s all;
+}
+
+nav ul li:hover {
+  background-color: #088;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 30px;
+  transition: all ease-in-out 0.5s;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background: rgba(38, 50, 56, 0.5);
+  padding: 0px 0;
+  z-index: 1;
+  transition: all ease-in-out 0.5s;
+}
+
+header:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header.fixed-to-top {
+  background: rgba(38, 50, 56, 1);
+}
+
+#brand {
+  color: white;
+  float: right;
+}
+
+#brand h1 {
+  letter-spacing: 10px;
+  text-shadow: 2px 2px 5px #111;
+  font-family: 'ms madi';
+}
+
+h2 {
+  font-family: 'Abhaya Libre';
+  font-size: 22px;
+  text-align:center;
+}
